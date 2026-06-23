@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://btimyonhs2v4"]
+
+[node name="Charly" type="Area2D" unique_id=1176479466]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=320037923]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1981373026]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=563750172]
+
+[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer" unique_id=2008241721]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/PanelContainer" unique_id=1897955519]
+layout_mode = 2
