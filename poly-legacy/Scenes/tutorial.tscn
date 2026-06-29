@@ -19,12 +19,20 @@ script = ExtResource("1_ka2pi")
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1336635010]
 
 [node name="Label" type="Label" parent="CanvasLayer" unique_id=1814772408]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 485.0
+offset_top = 131.0
+offset_right = 704.0
+offset_bottom = 180.0
+text = "USÁ WASD PARA MOVERTE
+"
+horizontal_alignment = 1
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=789233505]
-offset_right = 1155.0
-offset_bottom = 644.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 color = Color(0, 0, 0, 0)
 
 [node name="Button" type="Button" parent="CanvasLayer" unique_id=1891254825]
